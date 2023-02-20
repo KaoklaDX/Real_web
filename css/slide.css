@@ -1,9 +1,9 @@
 *{box-sizing: border-box;}
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: auto;
     position: relative;
-    margin: auto;
+    margin: 0;
   }
   
   /* Hide the images by default */
@@ -79,7 +79,9 @@
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}

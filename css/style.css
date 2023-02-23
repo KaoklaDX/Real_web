@@ -6,7 +6,7 @@ h1 {
     margin-top: auto;
 }
 body {
-    background-color: cornflowerblue;
+    background-color: white;
     margin: 0;
 }
 ul {
@@ -61,3 +61,13 @@ On a{
     text-align: center;
     color:black;
 }
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+  re {
+    display: block;
+    background-color: red;
+  }
